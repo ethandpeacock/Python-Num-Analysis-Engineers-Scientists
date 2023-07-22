@@ -1,0 +1,4 @@
+* start the course
+* populate todo.txt file
+* add macbook air to github auth tokens
+* setup structure and organization for this repo
