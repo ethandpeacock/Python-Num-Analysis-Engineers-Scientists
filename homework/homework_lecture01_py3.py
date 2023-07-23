@@ -13,7 +13,6 @@ print()
 # 3.
 y = []
 index = len(x) - 1
-# loop through list
 for i in range(len(x)):
 	y.append(x[index])
 	index -= 1	
