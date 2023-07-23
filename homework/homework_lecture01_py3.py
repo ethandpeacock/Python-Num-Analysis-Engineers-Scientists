@@ -1,15 +1,40 @@
 # Homework 01
 
-# TODO: 1. Name one difference between Python2 and Python3. Print your answer as a string in Python
-# TODO: 2. You are given a list x = [0, 1, 2, 3, 4, 5, 6] Print the third item in the list x.
-# TODO: 3. Assign y as the reversed order of list x. Print y.
-# TODO: 4. Use list slicing to assign z [1, 3, 5] from x. Print z
-# TODO: 5. copy incorrect python code that returns invalid syntax error and correct it
 
-'''
-Incorrect syntax error code:
+# 1.
+print("Python2 is faster\n")
 
+# 2.
+x = [0, 1, 2, 3, 4, 5, 6]
+print(x)
+print(x[2])
+print()
+
+# 3.
+y = []
+index = len(x) - 1
+# loop through list
+for i in range(len(x)):
+	y.append(x[index])
+	index -= 1	
+print(y)
+print()
+
+# 4.
+z = []
+z.append(x[1])
+z.append(x[3])
+z.append(x[5])
+print(z)
+print()
+
+# 5.
+se_code = "Incorrect syntax error code:\n \
+		x = 99\n \
+		if (x > 0) is True\n \
+		print('x is positive')\n"
+print(se_code)
 x = 99
-if (x > 0) is True
-print('x is positive')
-'''
+if (x > 0):
+	print('x is positive')
+
