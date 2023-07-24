@@ -38,3 +38,26 @@
 
 # TODO: complete and push to github
 
+
+
+# 1.
+def fib_seq(n):
+    '''returns fibonacci sequence to the nth term
+
+    Args:
+        n (int): the number of items to return from fibonacci sequence.
+    '''
+    # first three numbers of fib sequence
+    f = [0, 1, 1]
+    # generate next n numbers in sequence
+    for i in range(len(f), n):
+        f.append(f[i-1] + f[i-2])
+
+    return f
+
+n = 23  # number of sequence to generate
+f = fib_seq(n)
+# print the sequence
+print(f)
+# print the length of sequence
+print(len(f))
