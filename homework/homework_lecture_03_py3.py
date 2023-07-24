@@ -1,6 +1,8 @@
 # Homework 3
 
-
+# 1.
+import pyDOE
+print(help(pyDOE))
 # TODO: 1. Open anaconda terminal enter command pip install pydoe or conda install pydoe
 #pydoe python design of experiments library
 # import pyDOE
