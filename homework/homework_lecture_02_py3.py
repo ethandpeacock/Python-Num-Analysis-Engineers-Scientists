@@ -1,9 +1,6 @@
 # Homework 2
 
-# TODO: 1. Create a for loop to determine the next 20 numbers of fibonacci sequence
-#            print F with the final 23 numbers (use f.append to add new fib val to end of the list F
-#            Fib seq ->  F_n = F_(n-1) + F_(n-2)
-
+# TODO: clean code
 # TODO: 2.  Given the list x = [2.0, 3.0, 5.0, 7.0, 9.0], create a list Y(x) for each float in x print list Y
 # g = (x+y)**z
 # Y(x) = ((3.0x)^2)/(99x-x^3) - (1)/(x)
