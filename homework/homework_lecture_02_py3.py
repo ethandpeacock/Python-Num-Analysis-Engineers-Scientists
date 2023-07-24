@@ -1,9 +1,6 @@
 # Homework 2
 
 # TODO: clean code
-# TODO: 2.  Given the list x = [2.0, 3.0, 5.0, 7.0, 9.0], create a list Y(x) for each float in x print list Y
-# g = (x+y)**z
-# Y(x) = ((3.0x)^2)/(99x-x^3) - (1)/(x)
 
 # TODO: 3. general equation for quadratic equation is:
 #                ax^2 + bx + c = 0
@@ -55,6 +52,26 @@ def fib_seq(n):
 n = 23  # number of sequence to generate
 f = fib_seq(n)
 # print the sequence
+print("Fibonacci sequence:")
 print(f)
-# print the length of sequence
-print(len(f))
+print()
+
+
+
+# TODO: 2.  Given the list x = [2.0, 3.0, 5.0, 7.0, 9.0], create a list Y(x) for each float in x print list Y
+# g = (x+y)**z
+# Y(x) = ((3.0x)^2)/(99x-x^3) - (1)/(x)
+
+
+# 2.
+def y(x):
+    return (((3.0 * x)**2) / (99 * x - (x**3))) - (1/x)
+
+
+xs = [2.0, 3.0, 5.0, 7.0, 9.0]
+ys = []
+for x in xs:
+    ys.append(y(x))
+
+print("Y list:")
+print(ys)
