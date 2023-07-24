@@ -4,21 +4,6 @@
 
 
 
-# TODO: 5. Create three separate functions
-# one func should calculate the volume (v)
-# another to calculate the surface area (A),
-# and another to calculate the density (p) (rho) of a sphere.
-# the input variable for these functions should be the radius r
-# with the density function, allow the mass m to be an optional variable that defaults to m = 0.35.
-# Print the volume of a sphere with:
-# radius r = 0.69
-# print the surface area of a sphere with radius r = 0.4.
-# Print the density of a sphere with r = 0.3 and the default mass
-# Print the density of a sphere with r = 0.25 and m = 2.0
-
-# v = (4/3)*pi*r^3
-# A = 4*pi*r^2
-# p = m/v
 
 # TODO: complete and push to github
 
@@ -96,6 +81,50 @@ print()
 
 
 # 4.
+limit = 2000
+i = 1 # starting value for squaring
+last_int = -1
+while (i**2 < limit):
+    # store current passible int
+    last_int = i
+    # increment integer for squaring
+    i += 1
 
-# TODO: 4. Use a loop to find the largest integer that when squared is less than 2000
-# print the integer
+print("Largest integer ^2 less than 2000:")
+print(last_int)
+print(str(last_int) + "^2 = " + str(last_int**2))
+print()
+
+
+# 5.
+
+# TODO: add doc strings and comments to explain whats happening or purpose
+def v(r):
+    return (4/3) * (22/7) * r**3
+
+
+def A(r):
+    return 4 * (22/7) * r**2
+
+
+def p(v, m=0.35):
+    return (m / v)
+
+
+print("Volume of sphere with radius r=0.69:")
+print(v(0.69))
+print()
+print("Surface area of sphere with radius r=0.4:")
+print(A(0.4))
+print()
+print("Density of a sphere with radius r=0.3:")
+v_1 = v(0.3)
+print(p(v=v_1))
+print()
+
+print("Density of a sphere with radius r=0.25 and mass m=2.0:")
+v_2 = v(0.25)
+print(p(v=v_2, m=2.0))
+print()
+
+
