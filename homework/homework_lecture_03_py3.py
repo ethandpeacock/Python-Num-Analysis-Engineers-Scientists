@@ -3,9 +3,15 @@
 # 1.
 import pyDOE
 print(help(pyDOE))
-# TODO: 1. Open anaconda terminal enter command pip install pydoe or conda install pydoe
-#pydoe python design of experiments library
-# import pyDOE
+print("\n\n\n")
+
+# TODO: remove None print
+
+# 2.
+import os
+hostname = "ufl.edu"
+response = os.system("ping -c 2 " + hostname)
+
 
 # TODO: 2. Use the os library to print the current Python working directory
 # import os
