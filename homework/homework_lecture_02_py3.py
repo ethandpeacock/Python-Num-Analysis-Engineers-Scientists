@@ -62,17 +62,37 @@ for x in xs:
 
 print("Y list:")
 print(ys)
+print()
 
 
 # 3.
+import math
+
+def quad_solver(a, b, c):
+    '''Solves the quadratic formula for given values a, b, and c.
+
+    Args:
+        a
+        b
+        c
+
+    Returns:
+	# TODO: add doc strings and clean them
+    '''
+    x0 = (-b + math.sqrt(b**2 - 4 * a * c)) / (2 * a)
+    x1 = (-b - math.sqrt(b**2 - 4 * a * c)) / (2 * a)
+
+    return x0, x1
 
 
+# solve solution where a = 3.3, b = 1.7, c = -9.4
+a = 3.3
+b = 1.7
+c = -9.4
+x0, x1 = quad_solver(a, b, c)
+print("x_0:")
+print(x0)
+print("x_1:")
+print(x1)
+print()
 
-# TODO: 3. general equation for quadratic equation is:
-#                ax^2 + bx + c = 0
-# where solution is x_0 = (-b + sqrt(b^2 - 4ac)) / (2a)
-# and 
-# x_1 = (-b - sqrt(b^2 - 4ac)) / (2a)
-# create a function to solve the quadratic formula given a, b, c.
-# Return x_0, x_1 with your function
-# Use your function to print the solution when a = 3.3, b = 1.7, c = -9.4
