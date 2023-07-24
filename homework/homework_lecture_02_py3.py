@@ -3,8 +3,6 @@
 # TODO: clean code
 
 
-# TODO: 4. Use a loop to find the largest integer that when squared is less than 2000
-# print the integer
 
 # TODO: 5. Create three separate functions
 # one func should calculate the volume (v)
@@ -96,3 +94,8 @@ print("x_1:")
 print(x1)
 print()
 
+
+# 4.
+
+# TODO: 4. Use a loop to find the largest integer that when squared is less than 2000
+# print the integer
