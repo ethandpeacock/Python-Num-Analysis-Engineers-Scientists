@@ -1,4 +1,1 @@
-* start the course
-* populate todo.txt file
-* add macbook air to github auth tokens
-* setup structure and organization for this repo
+* Start lecture 02 and complete homework 2
