@@ -2,14 +2,6 @@
 
 # TODO: clean code
 
-# TODO: 3. general equation for quadratic equation is:
-#                ax^2 + bx + c = 0
-# where solution is x_0 = (-b + sqrt(b^2 - 4ac)) / (2a)
-# and 
-# x_1 = (-b - sqrt(b^2 - 4ac)) / (2a)
-# create a function to solve the quadratic formula given a, b, c.
-# Return x_0, x_1 with your function
-# Use your function to print the solution when a = 3.3, b = 1.7, c = -9.4
 
 # TODO: 4. Use a loop to find the largest integer that when squared is less than 2000
 # print the integer
@@ -49,18 +41,13 @@ def fib_seq(n):
 
     return f
 
+
 n = 23  # number of sequence to generate
 f = fib_seq(n)
 # print the sequence
 print("Fibonacci sequence:")
 print(f)
 print()
-
-
-
-# TODO: 2.  Given the list x = [2.0, 3.0, 5.0, 7.0, 9.0], create a list Y(x) for each float in x print list Y
-# g = (x+y)**z
-# Y(x) = ((3.0x)^2)/(99x-x^3) - (1)/(x)
 
 
 # 2.
@@ -75,3 +62,17 @@ for x in xs:
 
 print("Y list:")
 print(ys)
+
+
+# 3.
+
+
+
+# TODO: 3. general equation for quadratic equation is:
+#                ax^2 + bx + c = 0
+# where solution is x_0 = (-b + sqrt(b^2 - 4ac)) / (2a)
+# and 
+# x_1 = (-b - sqrt(b^2 - 4ac)) / (2a)
+# create a function to solve the quadratic formula given a, b, c.
+# Return x_0, x_1 with your function
+# Use your function to print the solution when a = 3.3, b = 1.7, c = -9.4
