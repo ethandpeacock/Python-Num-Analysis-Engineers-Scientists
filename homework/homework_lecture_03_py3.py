@@ -81,16 +81,12 @@ print("\n\nSphere surface area:")
 print(red.A())
 print("\n\nSphere density:")
 print(red.p())
+print("\n\n")
 
 
+# 5.
+x = [[0,1,2,3], [4,5,6,7], [8,9,10,11], [12,13,14,15]]
+for num_list in x:
+    print(num_list[0], num_list[1], num_list[2], num_list[3], sep = ' & ')
 
-# TODO: 5. Print function adds functionality
-# x = 1.0; y = 2.0;
-# print(x, y, sep = '   & '?)
-# will print 1.0 & 2.0
-# given x = [[0,1,2,3], [4,5,6,7], [8,9,10,11], [12,13,14,15]]
-# use a for loop to iterate through the four lists in x
-# each item in list should be printed and separated by an &
-# example output
-# 0 & 1 & 2 & 3
-# 4 & 5 & 6 & 7
+
