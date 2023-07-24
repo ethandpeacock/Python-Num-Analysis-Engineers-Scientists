@@ -84,13 +84,6 @@ print(red.p())
 
 
 
-# TODO: 4. Create a class called a sphere.
-# the object sphere requires a radius and mass to initialize
-# attributes of the sphere should include radius r, mass m, volume v, surface area A, and density p
-# initiate a new sphere name red with r = 1.7, m = 0.25
-# print dir(red)
-# print the volume surface area and density of red
-
 # TODO: 5. Print function adds functionality
 # x = 1.0; y = 2.0;
 # print(x, y, sep = '   & '?)
