@@ -17,6 +17,11 @@ response = os.system("ping -c 2 " + hostname)
 # import os
 # run a system command to use the systems ping program
 # if you are using linux ping -c 2 ufl.edu (command should be a string)
+# windows ping -c -1? idk look up and also check the response 
+# if response == 0:
+#    print(f"{hostname} is up!")
+# else:
+#    print(f"{hostname} is down!")
 
 # TODO: 3. Compare math.pi to numpy.pi
 # are these two representations of pi equal?
